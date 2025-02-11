@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBMatt"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:id="@+id/searchETMainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:backgroundTint="@color/colorGray"
+        android:foregroundTint="#FFFFFF"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchET"
+            android:layout_width="238dp"
+            android:layout_height="wrap_content"
+            android:foregroundTint="@color/colorWhite"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            app:iconifiedByDefault="false"
+            app:queryHint="@string/search_reminder"
+            app:searchHintIcon="@drawable/ic_search_white"
+            app:searchIcon="@drawable/ic_search_white"
+            android:theme="@style/CustomSearchView"
+            tools:visibility="visible" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_reminder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/searchETMainLayout"
+        android:layout_marginTop="8dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:itemCount="8"
+        tools:listitem="@layout/item_reminder" />
+
+    <TextView
+        android:id="@+id/noData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/add_reminder_hint"
+        android:textSize="18sp"
+        android:visibility="gone"
+        android:textColor="@color/colorWhite" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addReminderButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/fab_margin"
+        android:backgroundTint="@color/greenL"
+        android:contentDescription="@string/add_reminder"
+        android:tint="@color/colorWhite"
+        app:srcCompat="@android:drawable/ic_input_add"
+        android:elevation="6dp" />
+</RelativeLayout>

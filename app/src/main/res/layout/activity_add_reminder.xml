@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#28282B">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBMatt"
+        android:backgroundTint="@color/colorBMatt">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:paddingBottom="60dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_background"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorWhite"
+                app:boxBackgroundColor="@android:color/transparent"
+                app:errorTextColor="@color/colorWhite">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/titleET"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@android:color/transparent"
+                    android:gravity="start"
+                    android:hint="@string/title"
+                    android:inputType="text"
+                    android:maxLength="100"
+                    android:minLines="2"
+                    android:padding="10dp"
+                    android:textColor="@color/colorWhite"
+                    android:textColorHint="@color/colorWhite" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/rounded_background"
+                android:textColorHint="@color/colorWhite"
+                app:boxBackgroundColor="@android:color/transparent"
+                app:counterTextColor="@color/colorWhite"
+                app:hintTextColor="@color/colorWhite"
+                app:placeholderTextColor="@color/colorWhite"
+                app:prefixTextColor="@color/colorWhite"
+                app:suffixTextColor="@color/colorWhite">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/descriptionET"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:background="@android:color/transparent"
+                    android:backgroundTint="@color/colorGray"
+                    android:gravity="start"
+                    android:hint="@string/description"
+                    android:imeOptions="actionDone"
+                    android:inputType="textMultiLine"
+                    android:maxLength="500"
+                    android:maxLines="10"
+                    android:minLines="3"
+                    android:padding="10dp"
+                    android:textColor="@color/colorWhite"
+                    android:textColorHint="@color/colorWhite" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingEnd="40dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/dateTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:padding="10dp"
+                        android:text="@string/date"
+                        android:textColor="@color/colorWhite"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/selectDateButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/greenL"
+                        android:text="@string/select_date"
+                        android:textColor="@color/colorWhite" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingStart="40dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/timeTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:padding="10dp"
+                        android:text="@string/time"
+                        android:textColor="@color/colorWhite"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/selectTimeButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/greenL"
+                        android:text="@string/select_time"
+                        android:textColor="@color/colorWhite" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/saveBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="50sp"
+                android:backgroundTint="@color/greenL"
+                android:text="@string/save"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
