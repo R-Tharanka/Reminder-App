@@ -23,29 +23,35 @@ The app provides an intuitive interface to create, update, and delete reminders,
 git clone https://github.com/R-Tharanka/Reminder-App.git
 cd Reminder-App
 ```
-2️⃣ Open in Android Studio
-Open Android Studio
-Click "Open an Existing Project"
-Select the Reminder-App folder
-3️⃣ Build & Run the App
-Connect an Android Emulator or Real Device
-Click Run ▶️ to install and launch the app
+### **2️⃣ Open in Android Studio**  
+- Open **Android Studio**  
+- Click **"Open an Existing Project"**  
+- Select the **Reminder-App** folder  
 
+### **3️⃣ Build & Run the App**  
+- Connect an **Android Emulator** or **Real Device**  
+- Click **Run ▶️** to install and launch the app  
 
-⚙️ Technologies Used
-Kotlin/Java – Android app development
-RecyclerView – Display list of reminders
-SharedPreferences – Store reminders locally
-AlarmManager & NotificationManager – Schedule notifications
-Text-to-Speech (TTS) – Read reminders aloud
-AdMob (Google Ads SDK) – Monetization
+---
 
+## ⚙️ Technologies Used  
+- **Kotlin/Java** – Android app development  
+- **RecyclerView** – Display list of reminders  
+- **SharedPreferences** – Store reminders locally  
+- **AlarmManager & NotificationManager** – Schedule notifications  
+- **Text-to-Speech (TTS)** – Read reminders aloud  
+- **AdMob (Google Ads SDK)** – Monetization  
 
-🤝 Contributing
-Contributions are welcome! Follow these steps:
+---
 
-Fork the repository
-Create a new branch (git checkout -b feature-branch)
+## 🤝 Contributing  
+Contributions are welcome! Follow these steps:  
+
+1. **Fork** the repository  
+2. **Create a new branch**  
+   ```sh
+   git checkout -b feature-branch
+
 Make your changes and commit (git commit -m "Added new feature")
 Push to GitHub (git push origin feature-branch)
 Submit a Pull Request
