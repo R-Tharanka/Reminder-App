@@ -55,7 +55,10 @@ Contributions are welcome! Follow these steps:
    ```sh
    git commit -m "Added new feature"
 
-Push to GitHub (git push origin feature-branch)
+4. **Push to GitHub**  
+   ```sh
+   git push origin feature-branch
+
 Submit a Pull Request
 
 
