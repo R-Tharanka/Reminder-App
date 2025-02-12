@@ -1,23 +1,28 @@
-📅 Reminder App
-A simple Android Reminder App that allows users to set alarms, notifications, and reminders for their important tasks. The app provides an intuitive interface to create, update, and delete reminders, ensuring users never miss an important event!
+# 📅 Reminder App  
 
-✨ Features
-✔️ Create Reminders – Set one-time reminders with title, description, date, and time
-✔️ Alarms & Notifications – Get notified when reminders are due
-✔️ Task Stopwatch – Built-in stopwatch to track task duration
-✔️ Reminder List – View all scheduled reminders in a RecyclerView
-✔️ Search Functionality – Quickly find reminders by title or description
-✔️ Edit & Delete Reminders – Modify existing reminders or remove them
-✔️ Works in Background – Reminder service continues running even if the app is closed
+A simple **Android Reminder App** that allows users to set **alarms, notifications, and reminders** for their important tasks.  
+The app provides an intuitive interface to create, update, and delete reminders, ensuring users never miss an important event!  
 
+---
 
-🛠 Installation
-1️⃣ Clone the Repository
-sh
-Copy
-Edit
+## ✨ Features  
+- ✅ **Create Reminders** – Set one-time reminders with title, description, date, and time  
+- 🔔 **Alarms & Notifications** – Get notified when reminders are due  
+- ⏱ **Task Stopwatch** – Built-in stopwatch to track task duration  
+- 📋 **Reminder List** – View all scheduled reminders in a RecyclerView  
+- 🔎 **Search Functionality** – Quickly find reminders by title or description  
+- ✏️ **Edit & Delete Reminders** – Modify existing reminders or remove them  
+- 🚀 **Works in Background** – Reminder service continues running even if the app is closed  
+
+---
+
+## 🛠 Installation  
+
+### **1️⃣ Clone the Repository**  
+```sh
 git clone https://github.com/R-Tharanka/Reminder-App.git
 cd Reminder-App
+```
 2️⃣ Open in Android Studio
 Open Android Studio
 Click "Open an Existing Project"
