@@ -39,8 +39,7 @@ cd Reminder-App
 - **RecyclerView** – Display list of reminders  
 - **SharedPreferences** – Store reminders locally  
 - **AlarmManager & NotificationManager** – Schedule notifications  
-- **Text-to-Speech (TTS)** – Read reminders aloud  
-- **AdMob (Google Ads SDK)** – Monetization  
+- **Text-to-Speech (TTS)** – Read reminders aloud
 
 ---
 
@@ -52,7 +51,10 @@ Contributions are welcome! Follow these steps:
    ```sh
    git checkout -b feature-branch
 
-Make your changes and commit (git commit -m "Added new feature")
+3. **Make your changes and commit**  
+   ```sh
+   git commit -m "Added new feature"
+
 Push to GitHub (git push origin feature-branch)
 Submit a Pull Request
 
