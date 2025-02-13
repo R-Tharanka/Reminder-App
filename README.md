@@ -59,13 +59,16 @@ Contributions are welcome! Follow these steps:
    ```sh
    git push origin feature-branch
 
-Submit a Pull Request
+5. **Submit a Pull Request** 
 
+---
 
-📜 License
-This project is open-source under the MIT License.
+## 📜 License  
+This project is **open-source** under the **MIT License**.  
 
-📬 Contact
-👤 Ruchira Tharanka
-📧 Email: ruchiratharanka1@gmail.com
-🔗 GitHub: R-Tharanka
+---
+
+## 📬 Contact  
+👤 **Ruchira Tharanka**  
+📧 **Email:** ruchiratharanka1@gmail.com  
+🔗 **GitHub:** [R-Tharanka](https://github.com/R-Tharanka)  
